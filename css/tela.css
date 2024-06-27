@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(105, 105, 105);
+}
+
+.card {
+    background-color: rgb(105, 105, 105);
+    border: none;
+}
+
+.logo {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 2.5em;
+    color: #000; /* Cor do "E" em verde */
+    text-shadow: 2px 2px 2px rgb(76, 76, 76);
+    letter-spacing: 1px;
+}
+
+.logo::first-letter {
+    color: rgb(0, 58, 6); /* Restante do texto em preto */
+}
+
+.btn-primary {
+    background-color: rgb(152, 152, 152);
+    border: none;
+}
+
+.btn-secondary {
+    background-color: rgb(152, 152, 152);
+    border: none;
+}
+
+.register-link {
+    color: #ffffff;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+.btn-outline-secondary img {
+    width: 20px;
+}
+
+p {
+    color: white;
+    font-size: 10px;
+}
+
+.mb-3 {
+    margin-bottom: 15px; /* Ajuste a margem inferior conforme necessário */
+}
